@@ -265,6 +265,25 @@ img {
   flex-wrap: wrap;
 }
 
+.works-list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.works-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* .works-list-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}  */
+.works-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+/* .works-list-item:not(:nth-last-child(-n+3)) {
+  margin-bottom: 30px;
+} */
 .works-list-link {
   display: inline-block;
 }
@@ -297,25 +316,6 @@ img {
   overflow: hidden;
 }
 
-.works-list-item {
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
-
-.works-list-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-/* .works-list-item:not(:nth-child(3n)) {
-  margin-right: 30px;
-}  */
-.works-list-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-
-/* .works-list-item:not(:nth-last-child(-n+3)) {
-  margin-bottom: 30px;
-} */
 .works-description {
   font-weight: 400;
   font-size: 16px;
@@ -347,6 +347,22 @@ img {
   background-color: #2f303a;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.suptitle-dark-theme {
+  margin-bottom: 20px;
+}
+
+/* =====Форма для подписки===== */
+.address-set {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+}
+
 .footer-address-link {
   margin: 0 0 9px 0;
   font-weight: 400;
@@ -367,21 +383,6 @@ img {
 
 .footer-contacts-link:not(.footer-contacts-link:last-child) {
   margin: 0 0 9px 0;
-}
-
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
-.address-set {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: -20px;
-}
-
-.suptitle-dark-theme {
-  margin-bottom: 20px;
 }
 
 .footer-social-set {
@@ -436,7 +437,6 @@ img {
   margin-right: 10px;
 }
 
-/* =====Форма для подписки===== */
 .footer-form-group {
   display: flex;
   flex-direction: column;

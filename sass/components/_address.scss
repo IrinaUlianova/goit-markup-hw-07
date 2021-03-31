@@ -1,0 +1,25 @@
+.address-set {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -20px;
+}
+.footer-address-link {
+  margin: 0 0 9px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-contacts-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-link:not(.footer-contacts-link:last-child) {
+  margin: 0 0 9px 0;
+}
