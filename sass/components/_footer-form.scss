@@ -1,9 +1,9 @@
-.footer-form-group {
+.footer-form__group {
   display: flex;
   flex-direction: column;
   margin-left: 93px;
 }
-.footer-form-input {
+.footer-form__input {
   margin-right: 12px;
   width: 358px;
   height: 50px;
@@ -11,10 +11,10 @@
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: #ffffff;
+  padding: 15px 16px;
 }
-.footer-form-group input::placeholder {
+.footer-form__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  padding-left: 16px;
 }
 .footer-modal-btn {
   display: inline-flex;
@@ -30,7 +30,7 @@
   color: var(--primary-white-color);
   cursor: pointer;
 }
-.footer-modal-btn-icon {
+.footer-modal-btn__icon {
   justify-content: center;
   align-items: center;
   margin-left: 10px;

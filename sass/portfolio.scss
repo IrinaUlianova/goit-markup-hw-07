@@ -1,17 +1,20 @@
 @import "./utils/variables";
-@import "./base/common";
 @import "./utils/visually-hidden";
+
+@import "./base/common";
 @import "./base/container";
+
 @import "./components/logo";
 @import "./components/section";
 @import "./components/title";
 @import "./components/header";
 @import "./components/navigation";
-@import "./components/contacts";
+@import "./components/header-contacts";
 @import "./components/portfolio-filter";
 @import "./components/portfolio-grid";
 @import "./components/portfolio-projects";
 @import "./components/footer";
 @import "./components/address";
+@import "./components/footer-contacts";
 @import "./components/footer-socials";
 @import "./components/footer-form";
