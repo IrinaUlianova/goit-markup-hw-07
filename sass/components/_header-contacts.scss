@@ -4,30 +4,24 @@
   align-items: center;
   margin-left: auto;
 }
-// .contacts-list .contacts-list__item + .contacts-list__item
-.contact-list__item--left {
+.contacts-list__item + .contacts-list__item {
   margin-left: 50px;
 }
 .contacts-list__link {
+  @include font(14px, 500, 16px);
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+
   letter-spacing: 0.02em;
   color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
-.contacts-list__link:hover,
-.contacts-list__link:focus {
-  color: var(--accent-color);
-}
+
 .contacts-list__icon {
   fill: currentColor;
   margin-right: 10px;
 }
-
-// .contacts-list__phone-img {
-//   fill: currentColor;
-//   margin-right: 10px;
-// }

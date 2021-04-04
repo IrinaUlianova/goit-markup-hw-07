@@ -1,7 +1,13 @@
 .header {
   border-bottom: 1px solid #f5f4fa;
+
+  &-container {
+    display: flex;
+    align-items: center;
+  }
 }
-.header-container {
+
+.navigation {
   display: flex;
   align-items: center;
 }

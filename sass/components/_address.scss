@@ -4,15 +4,11 @@
   margin-bottom: -20px;
 }
 .address__item {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
+  margin: 0 0 9px 0;
+  @include font(14px, 400, 24px);
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-.address__item {
-  margin: 0 0 9px 0;
-}
-.address__item:last-child {
-  margin: 0;
+  &:last-child {
+    margin: 0;
+  }
 }

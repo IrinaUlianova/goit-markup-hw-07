@@ -1,17 +1,10 @@
-.logotype--accented {
-  color: var(--accent-color);
-}
 .logotype {
+  @include font(26px, 700, 31px);
   font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 
   letter-spacing: 0.03em;
+  color: #212121;
 }
-.logotype__theme-light {
-  color: #000000;
-}
-.logotype__theme-dark {
-  color: #ffffff;
+.logotype--accented {
+  color: var(--accent-color);
 }

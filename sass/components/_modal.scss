@@ -10,10 +10,9 @@
   transition: background-color 500ms linear;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.modal:hover {
-  background-color: #aaa7a7;
+  &:hover {
+    background-color: #aaa7a7;
+  }
 }
 
 .modal-close-btn {
@@ -27,7 +26,8 @@
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.modal-button-icon:focus,
-.modal-button-icon:hover {
+.modal-close-btn__icon{
+&:focus,
+&:hover {
   fill: var(--accent-color);
-}
+}}
